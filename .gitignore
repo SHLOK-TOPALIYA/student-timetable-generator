@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.streamlit/secrets.toml
+*.log
+*.xlsx
+*.xls
+*.xlsm
+*.pdf
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
