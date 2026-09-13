@@ -4,15 +4,17 @@
 
 A web application that helps university students generate a clean, personalized timetable from their official **Lecture, Lab, and Tutorial timetable files**.
 
-Instead of manually searching through a large university timetable, simply upload the official timetable, enter your course codes, select the required sections/groups, and generate a ready-to-use PDF timetable.
+Instead of manually searching through a large university timetable, simply upload the official timetable, enter your course codes, select the required sections or groups, and generate a ready-to-use PDF timetable.
 
 ---
 
 ## 🚀 Live Demo
 
-### 👉 [Open Student Timetable Generator](https://student-timetable-generator.streamlit.app/)
+👉 **[Open Student Timetable Generator](https://student-timetable-generator.streamlit.app/)**
 
-No installation required — open the application, upload your timetable file, select your courses, and generate your personalized timetable.
+No installation is required to use the online application.
+
+Upload your timetable, enter your courses, select the required sections or groups, and generate your personalized timetable.
 
 ---
 
@@ -50,9 +52,9 @@ The application supports:
 
 ### 2️⃣ Enter Your Course Codes
 
-Enter the course codes you want to include in your personal timetable.
+Enter the course codes you want to include in your personalized timetable.
 
-The course input fields automatically expand as you add courses.
+The course input fields automatically expand as you add more courses.
 
 ---
 
@@ -78,7 +80,7 @@ The application creates a clean weekly timetable containing the selected:
 - Labs
 - Tutorials
 
-with their relevant schedule and room information.
+along with their relevant schedule and room information.
 
 ---
 
