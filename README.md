@@ -48,15 +48,11 @@ The application supports:
 - Lab & Tutorial timetable
 - Existing generated Lecture timetable
 
----
-
 ### 2️⃣ Enter Your Course Codes
 
 Enter the course codes you want to include in your personalized timetable.
 
 The course input fields automatically expand as you add more courses.
-
----
 
 ### 3️⃣ Select Sections & Groups
 
@@ -64,13 +60,9 @@ If a course has multiple sections or groups, the application asks you to select 
 
 Where possible, a common section or group selection can be reused across applicable courses.
 
----
-
 ### 4️⃣ Check for Conflicts
 
 The application checks the selected schedules for overlapping time periods and reports timetable conflicts.
-
----
 
 ### 5️⃣ Generate Your Timetable
 
@@ -81,8 +73,6 @@ The application creates a clean weekly timetable containing the selected:
 - Tutorials
 
 along with their relevant schedule and room information.
-
----
 
 ### 6️⃣ Download Your PDF
 
@@ -133,3 +123,118 @@ The application supports the following timetable file formats:
 .xlsm
 .pdf
 .csv
+```
+
+The uploaded timetable is treated as the **source of truth** for schedule information.
+
+---
+
+## 🎯 Why This Project?
+
+University timetables can contain hundreds of entries across different:
+
+- Semesters
+- Courses
+- Sections
+- Labs
+- Tutorials
+- Time slots
+- Rooms
+
+Finding only the classes relevant to one student can therefore become a repetitive manual task.
+
+This project simplifies that process by allowing students to provide the official timetable and generate a personalized schedule automatically.
+
+---
+
+## 🛠️ Built With
+
+- 🐍 **Python**
+- 🎈 **Streamlit**
+- 📊 **OpenPyXL**
+- 📄 **pdfplumber**
+- 📝 **ReportLab**
+
+---
+
+## 💻 Run Locally
+
+If you want to run the application on your own computer instead of using the online version:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SHLOK-TOPALIYA/student-timetable-generator.git
+cd student-timetable-generator
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
+---
+
+## 📂 Project Structure
+
+```text
+student-timetable-generator/
+│
+├── app.py                 # Streamlit application
+├── core.py                # Timetable parsing and generation logic
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+├── .gitignore             # Git ignore rules
+├── LICENSE                # Project license
+├── run.bat                # Windows run script
+└── install_and_run.bat    # Windows installation and run script
+```
+
+---
+
+## 🌐 Deployment
+
+The application is deployed using **Streamlit Community Cloud** directly from this GitHub repository.
+
+### Live Application
+
+👉 **[student-timetable-generator.streamlit.app](https://student-timetable-generator.streamlit.app/)**
+
+---
+
+## 🔐 Privacy
+
+University timetable files are not included in this public GitHub repository.
+
+Users provide their timetable files through the application when generating their schedules.
+
+---
+
+## 🤝 Contributing
+
+Suggestions, improvements, and bug reports are welcome.
+
+If you have an idea that could make the application more useful for students, feel free to open an issue or submit a pull request.
+
+---
+
+## ⭐ Support the Project
+
+If you find this project useful, consider giving the repository a ⭐ on GitHub.
+
+It helps the project reach more students who may find it useful.
+
+---
+
+## 📄 License
+
+This project is licensed under the terms of the license included in this repository.
